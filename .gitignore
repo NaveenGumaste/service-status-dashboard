@@ -1,0 +1,45 @@
+# dependencies
+/web/node_modules/
+/web/.pnp
+.pnp.js
+
+# testing
+/web/coverage/
+
+# next.js
+/web/.next/
+/web/out/
+
+# production
+/web/build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/web/err.log
+/web/out.log
+
+# local env files
+.env*.local
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local learning guides & AI teacher instructions (not tracked in Git)
+/.guide/
+
+# separate GitOps repository
+/service-status-dashboard-gitops/
+
